@@ -4,7 +4,7 @@ function countDigits(n){
 //testcase if n=0
 if(n==0) return 1;
 
-//testcase if n is negative.
+//testcase if n is negative
 n = Math.abs(n);
 
 let count=0;
@@ -12,7 +12,7 @@ while(n > 0){
 n = Math.floor(n/10);
 count++;
 }
-return count;
+return count;git add .
 }
 
 let num=-56314987;
