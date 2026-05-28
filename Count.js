@@ -12,7 +12,7 @@ while(n > 0){
 n = Math.floor(n/10);
 count++;
 }
-return count;git add .
+return count;
 }
 
 let num=-56314987;
