@@ -10,7 +10,7 @@ function removeDuplicates (s){
                 s[x] = s[i];              
             }
     }
-    return s;
+    return x+1;
 };
 
 console.log(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
