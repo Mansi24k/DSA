@@ -17,8 +17,6 @@ function reverseString (s) {
         }else{
             for(let i=0;i<s.length;i++){
             if(i==x){
-                s[i] = s[x];
-                s[x] = s[i];
                 break;
             }else{
                 xcopy = s[i];
